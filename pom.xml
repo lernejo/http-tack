@@ -23,7 +23,7 @@
         <retrofit.version>2.9.0</retrofit.version>
 
         <build-helper-maven-plugin.version>3.2.0</build-helper-maven-plugin.version>
-        <maven-javadoc-plugin.version>3.2.0</maven-javadoc-plugin.version>
+        <maven-javadoc-plugin.version>3.3.0</maven-javadoc-plugin.version>
         <maven-source-plugin.version>3.2.1</maven-source-plugin.version>
         <maven-jar-plugin.version>3.2.0</maven-jar-plugin.version>
     </properties>
