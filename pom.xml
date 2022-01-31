@@ -6,7 +6,7 @@
 
     <groupId>com.github.lernejo</groupId>
     <artifactId>http-tack</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.2</version>
 
     <name>HTTP-tack</name>
     <description>Collection of utilities to redirect HTTP trafic</description>
