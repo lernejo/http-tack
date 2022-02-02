@@ -31,6 +31,10 @@ object HttpTack {
                 "import retrofit2.Retrofit;\nimport ${TackRetrofit::class.java.name};"
             )
             .replace(
+                Regex("import\\s+retrofit2\\.\\*\\s*;"),
+                "import retrofit2.*;\nimport ${TackRetrofit::class.java.name};"
+            )
+            .replace(
                 Regex("import\\s+retrofit2\\.Retrofit.Builder;"),
                 "import ${TackRetrofit.Builder::class.java.name};"
             )
